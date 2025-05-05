@@ -1,0 +1,49 @@
+#gameArea {
+
+    background-color: #90c4f4bc;
+
+    width: 1300px;    
+
+    height: 300px;
+
+    border: 5px solid orange;
+
+    position: absolute;
+
+    bottom: 10;
+
+    left: 70px;
+
+  }
+  #dino {
+
+    width: 150px;  
+
+    height: 150px;
+
+    position: absolute;
+
+    bottom: 0;
+
+    left: 10px;
+
+}
+#obstaculo {
+
+    background-color: black;
+
+    width: 20px;
+
+    height: 20px;
+
+    position: absolute;
+
+    bottom: 0;
+
+    right: 0;
+
+}
+@keyframes jump {
+0% {bottom: 0;}  
+50% {bottom: 200px}
+100% {bottom: 0;} }
